@@ -18,7 +18,6 @@ int main(void)
 		printf("%i", n);
 		n++;
 	}
-	print('\n');
 
 	return (0);
 }
