@@ -19,7 +19,7 @@ int main(void)
 		n++;
 
 
-		if (n < 9)
+		if (n < 10)
 		{
 			putchar(44);
 			putchar(32);
