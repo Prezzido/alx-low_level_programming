@@ -10,26 +10,21 @@ int main(void)
 {
 	int i, j, k;
 
-	i = 0;
-
-	while (i <= 99)
+	for (i = 0; i <= 99; i++)
 	{
-		j = i % 10;
-		k = i / 10;
+		j = i / 10;
+		k = i % 10;
 
-		if (k < j)
+		putchar(j + '0');
+		putchar(k + '0');
+
+		if (i < 99)
 		{
-			putchar(j + '0');
-			putchar(k + '0');
-			i++;
-
-			if (i <= 88)
-			{
-				putchar(44);
-				putchar(32);
-			}
+			putchar(44);
+			putchar(32);
 		}
 	}
+
 	putchar('\n');
 
 	return (0);
