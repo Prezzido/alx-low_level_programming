@@ -19,7 +19,7 @@ int main(void)
 		n++;
 
 
-		while (n < 9)
+		if (n < 9)
 		{
 			putchar(44);
 			putchar(32);
