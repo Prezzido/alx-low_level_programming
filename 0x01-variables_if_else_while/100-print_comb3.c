@@ -2,13 +2,16 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: Prints numbers from 0 to 99 distinctively
+ * Description: Prints all possible combinations of two digits...
+ * ...distinctively
  * Return: 0
  */
 
 int main(void)
 {
 	int i, j, k;
+
+	i = 0;
 
 	while (i < 100)
 	{
