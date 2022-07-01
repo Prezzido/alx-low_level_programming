@@ -17,12 +17,13 @@ int main(void)
 	{
 		putchar(n + '0');
 		n++;
-	}
 
-	while (n < 9)
-	{
-		putchar(44);
-		putchar(32);
+
+		while (n < 9)
+		{
+			putchar(44);
+			putchar(32);
+		}
 	}
 	putchar('\n');
 
