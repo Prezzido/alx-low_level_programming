@@ -17,10 +17,10 @@ int main(void)
 		a = i / 10; /*doubles fnum*/
 		b = i % 10; /*singles fnum*/
 
-		for (j = 0; j < 1000; j++)
+		for (j = 0; j < 100; j++)
 		{
-			c = i / 100; /*doubles snum*/
-			d = j % 100; /*singles snum*/
+			c = j / 10; /*doubles snum*/
+			d = j % 10; /*singles snum*/
 
 			if (a < c || (a == c && b < d))
 			{
