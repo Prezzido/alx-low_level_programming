@@ -2,7 +2,7 @@
 #define LARGEST 10000000000
 /**
  * main - main block
- * Description: Finds and prints the first 98 fib numbers starting with 1 and 2.
+ * Description: Finds and prints the first 98 fib numbers starting with 1 and 2
  * Numbers should be separated by commas followed by a space
  * Return: 0
  */
