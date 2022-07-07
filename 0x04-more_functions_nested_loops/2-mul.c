@@ -11,6 +11,8 @@ int mul(int a, int b)
 {
 	int y;
 
+	a = 50;
+	b = 1000;
 	y = a * b;
 
 	if (a * b)
