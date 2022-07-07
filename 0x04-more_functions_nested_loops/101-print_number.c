@@ -30,6 +30,8 @@ void print_number(int n)
 		else
 			c = 0;
 	}
+
+
 	/* count down */
 	while (num >= 0)
 	{
