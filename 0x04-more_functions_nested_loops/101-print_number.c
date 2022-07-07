@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,6 +9,7 @@
 
 void print_number(int n)
 {
+	
 	long m; /* power of 10 */
 	int c; /* boolean check */
 	long num; /* convert int to long */
