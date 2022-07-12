@@ -3,7 +3,7 @@
 /**
  * puts_half - prints the second half of a string
  * @str: char array string type
- * Description: If there are odd number of chars..., 
+ * Description: If there are odd number of chars...,
  * ...print (length - 1) / 2
  */
 
