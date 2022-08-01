@@ -1,1 +1,1 @@
-Structures, when, why and how to use them
+Strutures and how to go about them
