@@ -1,1 +1,1 @@
-Function Pointer in C
+Handling function pointers in C
